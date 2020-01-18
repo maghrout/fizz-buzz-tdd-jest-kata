@@ -1,5 +1,5 @@
 const fizzBuzz = function fizzBuzz(number) {
-    return true;
+    return "";
 }
 
 module.exports = fizzBuzz;
