@@ -6,4 +6,10 @@ describe('Fizz Buzz Solver', () => {
         expect(fizzBuzz(7)).toEqual("");
         expect(fizzBuzz(11)).toEqual("");
     })
+
+    it('Should return Fizz if number is divisible by 2', () => {
+        expect(fizzBuzz(2)).toEqual("Fizz");
+        expect(fizzBuzz(6)).toEqual("Fizz");
+        expect(fizzBuzz(12)).toEqual("Fizz");
+    })
 })
