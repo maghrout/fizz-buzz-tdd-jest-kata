@@ -1,4 +1,4 @@
-const fizzBuzz = function fizzBuzz(number) {
+const fizzBuzz = (number) => {
     let fizzBuzzText = "";
     
     fizzBuzzText += number % 2 === 0 ? "Fizz" : "";
