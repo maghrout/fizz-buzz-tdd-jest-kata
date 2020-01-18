@@ -12,4 +12,10 @@ describe('Fizz Buzz Solver', () => {
         expect(fizzBuzz(6)).toEqual("Fizz");
         expect(fizzBuzz(12)).toEqual("Fizz");
     })
+
+    it('Should return Buzz if number is divisible by 3', () => {
+        expect(fizzBuzz(3)).toEqual("Buzz");
+        expect(fizzBuzz(9)).toEqual("Buzz");
+        expect(fizzBuzz(15)).toEqual("Buzz");
+    })
 })
